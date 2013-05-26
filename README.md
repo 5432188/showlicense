@@ -21,11 +21,11 @@ LicensedProject[] projList = new LicensedProject[] { projABS, projDexDex }
 
 Activity
 --------
+![activity](https://lh5.googleusercontent.com/-whdGSM8JIpw/UaIJjWia2NI/AAAAAAAA73s/zF4-DlHXX1c/w385-h642-no/activity.png)
 1. Java code
 ```
 Intent intent = ShowLicense.createActivityIntent(this, "Open source licenses", projList);
 startActivity(intent);
-
 ```
 
 2. AndroidManifest.xml
@@ -36,8 +36,9 @@ add an activity element (optionally with label and icon)
 
 Dialog
 ------
+![dialog](https://lh5.googleusercontent.com/-90Sn9w_usk4/UaIJjXy-RaI/AAAAAAAA73o/jcp_mKJL5_8/w385-h642-no/dialog.png)
 ```
-ShowLicense(this, "Open source licenses", projList).show();
+ShowLicense.createDialog(this, "Open source licenses", projList).show();
 ```
 
 License
