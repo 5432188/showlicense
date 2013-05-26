@@ -3,7 +3,7 @@ showlicense
 
 A simple (open source) license UI library in JAR(not apklib) for android.
 
-you can show the information using either an activity or dialog.
+you can show the information using either an activity or dialog. clicking an item brings the project homepage to you.
 
 project list
 ------------
