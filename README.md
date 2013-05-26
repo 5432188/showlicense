@@ -2,6 +2,7 @@ showlicense
 ===========
 
 A simple (open source) license UI library in JAR(not apklib) for android.
+
 you can show the information using either an activity or dialog.
 
 project list
@@ -22,6 +23,7 @@ LicensedProject[] projList = new LicensedProject[] { projABS, projDexDex }
 Activity
 --------
 ![activity](https://lh5.googleusercontent.com/-whdGSM8JIpw/UaIJjWia2NI/AAAAAAAA73s/zF4-DlHXX1c/w385-h642-no/activity.png)
+
 1. Java code
 ```
 Intent intent = ShowLicense.createActivityIntent(this, "Open source licenses", projList);
