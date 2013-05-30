@@ -12,7 +12,7 @@
 	<artifactId>showlicense</artifactId>
 	<packaging>jar</packaging>
 	<name>showlicense</name>
-	<version>0.1</version>
+	<version>0.2-SNAPSHOT</version>
 	<description>an open source usage dialog/activity in JAR for the laziest coders</description>
 	<url>http://github.com/behumble/showlicense</url>
 	<licenses>
