@@ -45,6 +45,16 @@ Dialog
 ShowLicense.createDialog(this, "Open source licenses", projList).show();
 ```
 
+Maven
+-----
+```
+<dependency>
+    <groupId>com.thinkfree.android</groupId>
+    <artifactId>showlicense</artifactId>
+    <version>0.1</version>
+</dependency>
+```
+
 License
 -------
     Copyright 2013 ThinkFree
