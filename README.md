@@ -3,7 +3,7 @@ showlicense
 
 A simple (open source) license UI library in JAR(not apklib) for android.
 
-you can show the information using either an activity or dialog. clicking an item brings the project homepage to you.
+you can show information using either an activity or dialog. clicking an item brings the project homepage to you.
 
 project list
 ------------
@@ -35,6 +35,8 @@ add an activity element (optionally with label and icon)
 ```
     <activity android:name="com.thinkfree.showlicense.android.LicenseListActivity" android:label="Open Source License">
 ```
+
+3. Single jar, no dependency but ugly :)
 
 Dialog
 ------
